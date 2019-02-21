@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-View-45913171-0539-4EBA-8BEA-FE80D8FD8097</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\bootstrap.css" />
+    <Content Remove="wwwroot\assets\css\facebook.css" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Remove="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Remove="wwwroot\assets\img\150x150.gif" />
+    <Content Remove="wwwroot\assets\img\bg_4.jpg" />
+    <Content Remove="wwwroot\assets\img\bg_5.jpg" />
+    <Content Remove="wwwroot\assets\img\photo.jpg" />
+    <Content Remove="wwwroot\assets\img\photo.png" />
+    <Content Remove="wwwroot\assets\img\photo_002.jpg" />
+    <Content Remove="wwwroot\assets\img\Thumbs.db" />
+    <Content Remove="wwwroot\assets\img\uFp_tsTJboUY7kue5XAsGAs28.png" />
+    <Content Remove="wwwroot\assets\js\bootstrap.js" />
+    <Content Remove="wwwroot\assets\js\jquery.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\bootstrap.css" />
+    <None Include="wwwroot\assets\css\facebook.css" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\assets\GwFs3_KxNjS.png" />
+    <None Include="wwwroot\assets\img\150x150.gif" />
+    <None Include="wwwroot\assets\img\bg_4.jpg" />
+    <None Include="wwwroot\assets\img\bg_5.jpg" />
+    <None Include="wwwroot\assets\img\photo.jpg" />
+    <None Include="wwwroot\assets\img\photo.png" />
+    <None Include="wwwroot\assets\img\photo_002.jpg" />
+    <None Include="wwwroot\assets\img\Thumbs.db" />
+    <None Include="wwwroot\assets\img\uFp_tsTJboUY7kue5XAsGAs28.png" />
+    <None Include="wwwroot\assets\js\bootstrap.js" />
+    <None Include="wwwroot\assets\js\jquery.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.7" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

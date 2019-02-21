@@ -1,0 +1,52 @@
+﻿@{
+
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Facebook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet">
+
+    <link href="~/assets/css/facebook.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="navbar navbar-blue navbar-fixed-top col-lg-10">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a asp-controller="Profile" asp-action="Index" class="navbar-brand logo">f</a>
+        </div>
+        <div>
+            <nav class="collapse navbar-collapse" role="navigation">
+
+                <ul class="nav navbar-nav">
+
+
+                    <li><partial name="_LoginPartial" /></li>
+
+                </ul>
+
+            </nav>
+        </div>
+
+    </div>
+    <br/><br/><br/>
+    <div class="col-lg-1">
+        <img src="~/assets/GwFs3_KxNjS.png">
+    </div>
+
+</body>
+</html>
+
