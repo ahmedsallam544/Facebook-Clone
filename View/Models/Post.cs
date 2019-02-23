@@ -9,6 +9,7 @@ namespace View.Models
 {
     public class Post
     {
+        // NO commet
         public Post()
         {
             Comments = new HashSet<Comment>();
